@@ -37,19 +37,14 @@ for (var i = 0; i < numberOfDrumButtons; i++){
                 break;
 
             case "l":
-                var kickbass = new Audio("sounds/kick-bass.mp3");
+                var kick = new Audio("sounds/kick-bass.mp3");
                 audio.play();
                 break;
 
-            default:
-                break;
+            default: console.log();
+            
         }
-        this.style.color = "white";
-
 
     });
 
 }
-/*
-var audio = new Audio("sounds/tom-1.mp3");
-audio.play(); */ 
